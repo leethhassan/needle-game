@@ -1,0 +1,20 @@
+{
+  "name": "needle-in-a-haystack",
+  "version": "1.0.0",
+  "description": "A chaotic mobile game about finding a needle in a haystack.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve www",
+    "sync": "npx cap sync",
+    "android": "npx cap open android",
+    "build": "npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.0",
+    "@capacitor/core": "^8.5.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.0"
+  }
+}

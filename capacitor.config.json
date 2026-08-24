@@ -1,0 +1,9 @@
+{
+  "appId": "com.example.needleinahaystack",
+  "appName": "Needle in a Haystack",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "android": {
+    "backgroundColor": "#10140f"
+  }
+}
