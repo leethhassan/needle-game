@@ -23,10 +23,9 @@ jobs:
         distribution: 'temurin'
         java-version: '17'
 
-    - name: Install dependencies & Add Android platform
+    - name: Install dependencies & Sync Android platform
       run: |
         npm install
-        npx cap add android
         npx cap sync android
 
     - name: Build Debug APK with Gradle
